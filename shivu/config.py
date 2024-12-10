@@ -10,7 +10,7 @@ class Config(object):
     PHOTO_URL = ["https://files.catbox.moe/wy70cl.jpg", "https://files.catbox.moe/wy70cl.jpg"]
     SUPPORT_CHAT = "WH_SUPPORT_GC"
     UPDATE_CHAT = "iamvillain77"
-    BOT_USERNAME = "Waifu_World_Robot"
+    BOT_USERNAME = "@Random_test_009_bot"
     CHARA_CHANNEL_ID = "-1002311769574"
     api_id = "24061032"
     api_hash = "5ad029547f2eeb5a0b68b05d0db713be"
