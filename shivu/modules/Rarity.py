@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext
-from your_module import application, sudo_users, collection  # Assuming 'collection' is the MongoDB collection where characters are stored
+from shivu import application, sudo_users, collection  # Assuming 'collection' is the MongoDB collection where characters are stored
 
 RARITY_MAP = {
     1: "⚪ COMMON",
