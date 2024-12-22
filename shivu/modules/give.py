@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from Grabber import db, collection, top_global_groups_collection, group_user_totals_collection, user_collection, user_totals_collection
+from shivu import db, collection, top_global_groups_collection, group_user_totals_collection, user_collection, user_totals_collection
 import asyncio
-from Grabber import Grabberu as app
-from Grabber import sudo_users
+from shivu import shivuu as app
+from shivu import sudo_users
 
-DEV_LIST = [8019277081, 5909658683]
+DEV_LIST = [5909658683,8019277081]
 
 async def give_character(receiver_id, character_id):
     character = await collection.find_one({'id': character_id})
