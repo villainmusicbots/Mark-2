@@ -1,14 +1,11 @@
 from telegram import Update
-from telegram.ext import CallbackContext, CommandHandler
+from telegram.ext import CallbackContext, CommandHandler 
 
-from shivu import application, top_global_groups_collection, pm_users, OWNER_IDS
-
-# Update OWNER_IDS to hold both owner IDs
-OWNER_IDS = [8019277081, 5909658683]
-
+from shivu import application, top_global_groups_collection, pm_users, OWNER_ID 
+OWNER_ID=5909658683
 async def broadcast(update: Update, context: CallbackContext) -> None:
-    # Check if the user is one of the owners
-    if update.effective_user.id not in OWNER_IDS:
+    
+    if update.effective_user.id != OWNER_ID:
         await update.message.reply_text("You are not authorized to use this command.")
         return
 
