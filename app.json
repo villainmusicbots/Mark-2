@@ -12,12 +12,12 @@
     "pyrogram"
     ],
     "env": {
-      "API_ID": {
+      "api_id": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
-      "API_HASH": {
+      "api_hash": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
@@ -27,7 +27,7 @@
         "value": "",
         "required": true
       },
-      "MONGO_URL": {
+      "mongo_url": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
