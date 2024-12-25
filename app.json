@@ -45,12 +45,12 @@
       "TOKEN": {
         "description": "...",
         "value": "",
-        "required": false
+        "required": true
       },
       "SUPPORT_CHAT": {
         "description": "..",
         "value": "",
-        "required": false
+        "required": true
       },
       "UPDATE_CHAT": {
         "description": "..",
@@ -76,6 +76,7 @@
         "description": "...",
         "value": "",
         "required": true
+     }
     },
             
             
