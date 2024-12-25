@@ -46,6 +46,7 @@ async def marry(update: Update, context: CallbackContext) -> None:
         message = f"Congratulations! {character_name} has accepted your marriage proposal! 💍🎉"
     
     # Send the response with character's image and message
+    await update.message.reply_text("🎲")
     await update.message.reply_photo(photo=character_img, caption=message, parse_mode='HTML')
 
     # Update the last used time for the user to implement the cooldown
@@ -53,5 +54,3 @@ async def marry(update: Update, context: CallbackContext) -> None:
 
 # Add /marry handler
 application.add_handler(CommandHandler("marry", marry, block=False))
-EMOJI="🎲"
-Client.send_message(🎲)
