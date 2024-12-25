@@ -18,7 +18,9 @@ async def marry(update: Update, context: CallbackContext) -> None:
             remaining_time = timedelta(minutes=2) - time_diff
             await update.message.reply_text(f"Please wait {remaining_time} before trying again.")
             return
-
+stickers = [
+        "🎲"
+]
     # Choose a random character from the database or predefined list of characters
     cursor = collection.aggregate([
         {"$sample": {"size": 1}}  # Randomly pick one character
