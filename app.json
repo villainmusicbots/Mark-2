@@ -1,7 +1,7 @@
 {
     "name": "waifu bot",
     "description": "A Telegram waifu Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/a852ad09c23571d37d603.jpg",
+    "logo": "https://files.catbox.moe/pcncfx.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -56,8 +56,22 @@
         "description": "Your Log Group ID, add your bot or assistant and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
         "required": true
-      }
+      },
+        "SUDO_USERS": {
+        "description": "Sodu user id",
+        "value": "",
+        "required": true  
+      },
+        "BOT_USERNAME": {
+        "description": "Your bot user name",
+        "value": "",
+        "required": true
     },
+        "PHOTO_URL": {
+        "description": "Your Phot url paste here",
+        "value": "",
+        "required": true
+            
     "buildpacks": [
           {
               "url": "heroku/python"
