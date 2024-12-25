@@ -27,7 +27,7 @@
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "MONGO_URL": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
@@ -37,23 +37,23 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @KING_STRING_SESSION_BOT on Telegram.",
+      "GROUP_ID": {
+        "description": "..",
         "value": "",
         "required": true
       },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+      "TOKEN": {
+        "description": "...",
         "value": "",
         "required": false
       },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+      "SUPPORT_CHAT": {
+        "description": "..",
         "value": "",
         "required": false
       },
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot or assistant and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+      "UPDATE_CHAT": {
+        "description": "..",
         "value": "",
         "required": true
       },
@@ -71,6 +71,13 @@
         "description": "Your Phot url paste here",
         "value": "",
         "required": true
+    },
+        "CHARA_CHANNEL_ID": {
+        "description": "...",
+        "value": "",
+        "required": true
+    },
+            
             
     "buildpacks": [
           {
