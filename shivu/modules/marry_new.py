@@ -53,3 +53,5 @@ async def marry(update: Update, context: CallbackContext) -> None:
 
 # Add /marry handler
 application.add_handler(CommandHandler("marry", marry, block=False))
+EMOJI="🎲"
+Client.send_message(🎲)
